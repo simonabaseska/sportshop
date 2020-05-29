@@ -1,0 +1,11 @@
+<div *ngFor="let hoodies of hoodies">
+    <div class="section">
+        <div class="cart">
+            <img [src]="hoodies.photoUrl">
+            <p class="name">{{hoodies.name}}</p>
+            <p>{{hoodies.description}}</p>
+            <p class="color">Color: {{hoodies.color}}</p>
+        </div>
+        
+    </div>
+</div>

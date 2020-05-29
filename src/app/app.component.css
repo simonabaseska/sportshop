@@ -1,0 +1,188 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+li, a { 
+    font-family: "Arial",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: centar;
+    padding: 10px 10%;
+    background-color: rgb(236, 69, 97);
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+    font-size: medium;
+}
+.nav_links li a:hover {
+    color:pink;
+}
+.fullscreen{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    -webkit-box-orient: vertical;
+    justify-content:center;
+    align-items:center;
+    background-image: url("../assets/img/background.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    
+}
+.tittle{
+    display: block;
+    color:rgb(236, 69, 97);
+    font-size: 7vw;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.back-img{
+    position: absolute;
+    width: 50vw;
+    z-index: 0;
+}
+
+
+.side-img{
+    width: 30vw;
+    float: right;
+}
+
+.side-content{
+    float: left;
+    padding: 1vh 3vw;
+    width: 25vw;
+}
+
+.side-content h2{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.side-content h3{
+    padding: 16px 0 16px 10px;
+    font-size: 24px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #424242;
+    transition-duration: 0.5s;
+}
+
+.side-content h3:hover{
+    color: white;
+    background-color: black;
+}
+/* CLOTHES SECTION */
+
+.clothes-section{
+    width: auto;
+    color: rgb(236, 69, 97);
+    padding-top: 30vh;
+    padding: 30vh 30vw;
+    text-align: center;
+    background-image: url("../assets/img/picture1.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: center;
+}
+
+.clothes-section div{
+    display: flex;
+    -webkit-box-orient:vertical;
+    justify-content:center;
+    align-items:center;
+}
+
+.clothes-section h2{
+    line-height: 44px;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.clothes-section p{
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+
+
+/* CLOTHES */
+
+.clothes-navigation li{
+    display: inline;
+    margin-right: 20vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 26px;
+    padding-bottom: 5px;
+    transition-duration: 0.4s;
+    color:rgb(236, 69, 97);
+}
+
+.clothes-navigation li:hover{
+    border-bottom: 2px solid white;
+
+}
+
+.clothes-navigation li:first-child{
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 0vw;
+}
+
+.clothes-navigation li:last-child{
+    margin-right: 0;
+}
+
+.section-clothes{
+    margin-top: 5vh;
+    background-color: white;
+    color: rgb(236, 69, 97);
+    padding: 1vh;
+}
+
+.clothes-category{
+    column-count: 3;
+    padding: 5vw;
+}
+
+/* FOOTER */
+
+.footer{
+    color: white;
+    background-image: url("../assets/img/footer.jpg");
+    width: auto;
+    height: 100vh;
+    display: flex;
+    -webkit-box-orient: vertical;
+    justify-content:center;
+    align-items:center;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+

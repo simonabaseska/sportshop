@@ -1,0 +1,52 @@
+<header>
+  <nav>
+  <ul class=nav_links>
+      <li><a (click)="setShorts()" class="active" href="#SHORTS">Shorts</a></li>
+      <li><a (click)="setSportsbras()" href="#SPORTSBRAS">Sports Bras</a></li>
+      <li><a (click)="setHoodies()" href="#HOODIES">Hoodies</a></li>
+      <li><a (click)="setLeggings()" href="#LEGGINGS">Leggings</a></li>
+    </ul>
+  </nav>
+  </header>
+<section class="fullscreen">
+  <h1 class="tittle"> Women Sport Shop </h1>
+</section>
+<section class="clothes-section">
+  <div>
+  <h2>BE THE BEST VERSION OF YOU </h2>
+</div>
+</section>
+
+<section class="section-clothes" id="clothes">
+
+    <div class="clothes-navigation">
+        <ul>
+            <li (click)="setShorts()" id="SHORTS">Shorts</li>
+            <li (click)="setSportsbras()" id="SPORTSBRAS">Sports Bras</li>
+            <li (click)="setHoodies()" id="HOODIES">Hoodies</li>
+            <li (click)="setLeggings()" id="LEGGINGS">Leggings</li>
+        </ul>
+    </div>
+
+    <div class="clothes-category" *ngIf="shorts_flag" id="shorts">
+      <app-shorts></app-shorts>
+    </div>
+  
+    <div class="clothes-category" *ngIf="sportsbras_flag" id="sportsbras">
+      <app-sportsbras></app-sportsbras>
+    </div>
+  
+    <div class="clothes-category" *ngIf="hoodies_flag" id="hoodies">
+      <app-hoodies></app-hoodies>
+    </div>
+  
+    <div class="clothes-category" *ngIf="leggings_flag" id="leggings">
+      <app-leggings></app-leggings>
+    </div>
+
+</section>
+
+<section class="footer">
+  <h1 class="tittle"> GET UP EVERY MORNING <br> AND TELL YOURSELF <br>     "I CAN DO THIS!" </h1>
+   
+  </section>

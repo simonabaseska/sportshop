@@ -1,0 +1,11 @@
+<div *ngFor="let shorts of shorts">
+    <div class="section">
+        <div class="cart">
+            <img [src]="shorts.photoUrl">
+            <p class="name">{{shorts.name}}</p>
+            <p>{{shorts.description}}</p >
+            <p class="color">Color: {{shorts.color}}</p>
+        </div>
+        
+    </div>
+</div>
